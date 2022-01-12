@@ -5,7 +5,7 @@
 ---
 
 ## Environment
-Ubuntu Server 20.04.3 LTS (ROS : Noetic)
+Ubuntu Server 20.04.3 LTS (ROS: Noetic)
 
 ---
 
@@ -43,7 +43,6 @@ Ubuntu Server 20.04.3 LTS (ROS : Noetic)
 
 ## Model
 <img src="https://user-images.githubusercontent.com/71488207/148588983-0917a38b-b10c-49bf-8c56-caae8d74ad70.png" width="600px">
-<img src="https://user-images.githubusercontent.com/71488207/148589209-8408da05-e588-46f1-aab9-53dfaa98a288.png" width="600px">
 
 ---
 
@@ -82,6 +81,9 @@ $ sudo make install
 ```
 
 ## Usage
+```
+Terminal 2 $ roscore
+```
 
 ---
 
