@@ -28,10 +28,10 @@ Ubuntu Server 20.04.3 LTS (ROS: Noetic)
 ## Connection
 | GPIO | L298N | Motor | Battery Holder |
 | :--: | :---: | :---: | :-----: |
-| 22 | IN1 |
-| 23 | IN2 |
-| 24 | IN3 |
-| 25 | IN4 |
+| 17 | IN1 |
+| 18 | IN2 |
+| 27 | IN3 |
+| 22 | IN4 |
 || OUT1 | 2 motors+ |
 || OUT2 | 2 motors- |
 || OUT3 | 2 motors- |
@@ -46,7 +46,7 @@ Ubuntu Server 20.04.3 LTS (ROS: Noetic)
 
 ---
 
-## Install & Build
+## Install & Build (catkin_make)
 ### Package
 ```
 $ cd ~/catkin_ws/src
