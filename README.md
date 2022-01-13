@@ -84,6 +84,27 @@ $ sudo make install
 ```
 Terminal 2 $ roscore
 ```
+### Forward
+```
+$ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.5, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
+```
+### Backward
+```
+$ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: -0.5, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
+```
+### Stop
+```
+$ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
+
+```
+### Right rotation
+```
+$ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: -0.5}}'
+```
+### Left rotation
+```
+$ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.5}}'
+```
 
 ---
 
