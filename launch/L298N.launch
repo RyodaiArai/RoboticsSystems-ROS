@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="control_wheels" name="robo1" type="wheels_listener" output="screen">
+    <param name="AIN1" type="int" value="17"/>
+    <param name="AIN2" type="int" value="18"/>
+    <param name="BIN1" type="int" value="27"/>
+    <param name="BIN2" type="int" value="22"/>
+  </node>
+</launch>
