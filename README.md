@@ -79,10 +79,12 @@ $ make
 ```
 $ sudo make install
 ```
-
+```
+$ sudo pigpiod
+```
 ## Usage
 ```
-Terminal 2 $ roscore
+$ rosrun control_wheels wheels_listener
 ```
 ### Forward
 ```
@@ -95,7 +97,6 @@ $ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: -0.5
 ### Stop
 ```
 $ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
-
 ```
 ### Right rotation
 ```
