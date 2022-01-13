@@ -105,10 +105,8 @@ int main(int argc, char **argv)
     ROS_INFO("DC-MOTOR DRIVER is working");
     if (pin_apwm >= 0)
     {
-        //wheels.setPin(pi,pin_ain1, pin_ain2, pin_apwm,pin_bin1, pin_bin2, pin_bpwm);
-
-        //ROS_INFO("R_IN1: %02d, R_IN2: %02d, R_PWM: %02d,L_IN1: %02d, L_IN2: %02d, L_PWM: %02d",pin_ain1, pin_ain2, pin_apwm, pin_bin1, pin_bin2, pin_bpwm);
     }
+    
     else
     {
         wheels.setPin(pi, pin_ain1, pin_ain2, pin_bin1, pin_bin2);
