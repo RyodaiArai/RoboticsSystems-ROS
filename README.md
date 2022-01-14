@@ -1,6 +1,7 @@
 # Robotics Systems-ROS
 
 ## Description
+THis package is to control wheels with ROS and Raspberry Pi.
 
 ---
 
@@ -115,3 +116,12 @@ $ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0,
 
 ## License
 [BSD 3-Clause "New" or "Revised" License](https://github.com/RyodaiArai/Robotics_Systems-ROS/blob/main/LICENSE)
+
+---
+
+## References
+[pigpio](https://abyz.me.uk/rpi/pigpio/download.html)
+
+[Raspi+ROSでモータを回してみた](https://qiita.com/MENDY/items/0089b0f52acf23b7d3f1)
+
+[RaspberryPiのROSからTB6612でDCモータを制御する](https://botalab.tech/raspi_ros_dc_motor_control_tb6612/)
