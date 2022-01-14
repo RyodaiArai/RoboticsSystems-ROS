@@ -111,7 +111,7 @@ $ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0,
 ---
 
 ## Video
-
+[<img src="https://user-images.githubusercontent.com/71488207/149451103-a255e839-b01e-4def-95e4-d709648c2cb5.png" width="600px">](https://youtu.be/81plt-eDLuI)
 ---
 
 ## License
@@ -120,6 +120,7 @@ $ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0,
 ---
 
 ## References
+
 [pigpio](https://abyz.me.uk/rpi/pigpio/download.html)
 
 [Raspi+ROSでモータを回してみた](https://qiita.com/MENDY/items/0089b0f52acf23b7d3f1)
