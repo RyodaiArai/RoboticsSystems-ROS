@@ -1,7 +1,9 @@
 # Robotics Systems-ROS
 
+---
+
 ## Description
-THis package is to control wheels with ROS and Raspberry Pi.
+This is a ROS package to control wheels with Raspberry Pi.
 
 ---
 
@@ -44,6 +46,7 @@ Ubuntu Server 20.04.3 LTS (ROS: Noetic)
 
 ## Model
 <img src="https://user-images.githubusercontent.com/71488207/148588983-0917a38b-b10c-49bf-8c56-caae8d74ad70.png" width="600px">
+<img src="https://user-images.githubusercontent.com/71488207/148589209-8408da05-e588-46f1-aab9-53dfaa98a288.png" width="600px">
 
 ---
 
@@ -64,6 +67,7 @@ $ catkin_make
 ```
 $ source ~/.bashrc
 ```
+
 ### [pigpio](https://abyz.me.uk/rpi/pigpio/download.html)
 ```
 $ wget https://github.com/joan2937/pigpio/archive/master.zip
@@ -83,6 +87,7 @@ $ sudo make install
 ```
 $ sudo pigpiod
 ```
+
 ## Usage
 ```
 $ rosrun control_wheels wheels_listener
@@ -112,6 +117,9 @@ $ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0,
 
 ## Video
 [<img src="https://user-images.githubusercontent.com/71488207/149451103-a255e839-b01e-4def-95e4-d709648c2cb5.png" width="600px">](https://youtu.be/81plt-eDLuI)
+
+Click on the image to play the video on YouTube.
+
 ---
 
 ## License
@@ -120,9 +128,6 @@ $ rostopic pub -1 /robotics_systems_ros geometry_msgs/Twist  '{linear:  {x: 0.0,
 ---
 
 ## References
-
 [pigpio](https://abyz.me.uk/rpi/pigpio/download.html)
 
-[Raspi+ROSでモータを回してみた](https://qiita.com/MENDY/items/0089b0f52acf23b7d3f1)
-
-[RaspberryPiのROSからTB6612でDCモータを制御する](https://botalab.tech/raspi_ros_dc_motor_control_tb6612/)
+[botamochi6227 (2019)](https://github.com/botamochi6277/tamiya_cam_robot)
