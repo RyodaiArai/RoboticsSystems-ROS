@@ -5,4 +5,7 @@
     <param name="BIN1" type="int" value="27"/>
     <param name="BIN2" type="int" value="22"/>
   </node>
+
+  <include file="$(find roswww)/launch/roswww.launch" />
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
 </launch>
