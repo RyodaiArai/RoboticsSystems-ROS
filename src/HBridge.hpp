@@ -50,6 +50,7 @@ public:
     {
         switch (type_)
         {
+
         case 0:
 
             if (power > 0)
@@ -57,12 +58,14 @@ public:
                 gpio_write(pi_, pin_in1_, 1);
                 gpio_write(pi_, pin_in2_, 0);
             }
+
             else
             {
                 gpio_write(pi_, pin_in1_, 0);
                 gpio_write(pi_, pin_in2_, 1);
                 power = -power;
             }
+
             set_PWM_dutycycle(pi_, pin_pwm_, power);
             break;
 
@@ -73,12 +76,14 @@ public:
                 set_PWM_dutycycle(pi_, pin_in1_, power);
                 gpio_write(pi_, pin_in2_, 0);
             }
+
             else
             {
                 power = -power;
                 gpio_write(pi_, pin_in1_, 0);
                 set_PWM_dutycycle(pi_, pin_in2_, power);
             }
+
             break;
         }
     }
