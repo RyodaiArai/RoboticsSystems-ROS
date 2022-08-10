@@ -2,7 +2,7 @@
 
 ---
 
-## Description
+## Overview
 This is a ROS package to control wheels with Raspberry Pi.
 
 ---
@@ -12,7 +12,7 @@ Ubuntu Server 20.04.3 LTS (ROS: Noetic)
 
 ---
 
-## Requirements
+## Requirement
 | Name | Quantity | Datasheet |
 | :--: | :------: | :-------: |
 | [Raspberry Pi 4 ModelB](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) | 1 | [PDF](https://github.com/RyodaiArai/Robotics_Systems-Device_driver/files/7833504/raspberry-pi-4-datasheet.pdf) |
