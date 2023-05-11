@@ -1,4 +1,4 @@
-# Robotics Systems-ROS
+# RoboticsSystems-ROS
 
 ---
 
@@ -56,7 +56,7 @@ Ubuntu Server 20.04.3 LTS (ROS: Noetic)
 $ cd ~/catkin_ws/src
 ```
 ```
-$ https://github.com/RyodaiArai/Robotics_Systems-ROS
+$ https://github.com/RyodaiArai/RoboticsSystems-ROS
 ```
 ```
 $ cd ~/catkin_ws
